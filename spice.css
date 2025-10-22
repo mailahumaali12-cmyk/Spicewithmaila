@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+    background-color:  #fffaf0;
+    color: #333;
+}
+
+h1, h2 h3 {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ebab3591;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.banner {
+    text-align: center;
+    background-color: #f5cc89;
+    padding: 20px;
+}
+.banner img {
+    width: 1000%;
+    max-width: 1800px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.banner-title {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff8dc;
+}
+
+.hero h2 {
+    color: #ff8c00;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px
+}
+
+.hero img {
+    width: 60%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.featured-recipes {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-recipes h2 {
+    color: #ff8c00;
+    margin-bottom: 30px;
+}
+.recipe-card {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+    transform:scale(1.05);
+}
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.recipe-card h3 {
+    color: #ff8c00;
+    margin-top: 10px;
+}
+.recipe-card p {
+    font-size: 0.95rem;
+    margin: 10px 0;
+}
+.btn {
+    display: inline-black;
+    background-color: yellow;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #ffa500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: yellow;
+}
